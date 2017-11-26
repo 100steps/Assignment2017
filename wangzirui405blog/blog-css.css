@@ -209,8 +209,8 @@
 
   .pointButton{
 
-  	position: absolute;
-  	left: 11%;
+  	position: fixed;
+  	left: 10%;
   	width: 80px;
   	height: 80px;
   	border-radius: 100%;
@@ -222,9 +222,9 @@
 
   .boardgrilSystemCss{
 
-  	position: absolute;
+  	position: fixed;
   	z-index: 1;
-  	left: 4%;
+  	left: 3%;
   	animation: appearBoardGril 3s;
   }
 
@@ -247,7 +247,7 @@
 		10%{transform: rotate(20deg);left: -12%;}
 		40%{transform: rotate(30deg);left: -12%;}
 		70%{transform: rotate(0deg);left: -15%;}
-		100%{transform: rotate(0deg);left: 4%;}
+		100%{transform: rotate(0deg);left: 3%;}
 	}
 
 @keyframes appearbodySt{
